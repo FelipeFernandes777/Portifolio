@@ -30,7 +30,7 @@ const ContactInfo = styled.div`
   align-items: center;
   gap: 25px;
   background-color: #ECEAB4;
-
+  border-radius: 4%;
   margin: 0 auto;
 
   @media screen and (max-width: 550px){
@@ -232,7 +232,7 @@ const AboutFooter = styled.footer`
   li{
     justify-content: center;
     align-items: center;
-    padding: 25px;
+    padding: 12px;
     display: inline;
   }
 
@@ -252,14 +252,25 @@ const AboutFooter = styled.footer`
       flex-wrap: nowrap;
     }
   }
+  @media screen and (max-width: 650px){
+    ul{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      gap: 0;
+      width: auto !important;
+    }
+    li{
+      width: auto !important;
+    }
+    span{
+      font-size: 19px;
+    }
+  }
   @media screen and (max-width: 380px){
-    width: auto !important;
 
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: initial;
-    align-items: center;
     ul{
       display: flex;
       align-items: center;
@@ -369,14 +380,15 @@ const ImgContainer = styled.div`
 `
 
 const ImgTecnologies = styled.img`
+  box-sizing: border-box;
   margin-left: 22px;
-  width: 125px;
-  height: 125px;
+  width: 100px;
+  height: 100px;
 
   @media screen  and (max-width: 880px){
     margin-left: 15px;
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
   }
 
   @media screen and (max-width: 550px){
@@ -392,30 +404,47 @@ const ImgTecnologies = styled.img`
 `
 
 const Project = styled.div`
-  width: 67.2vw;
+  width: 67vw;
   height: 67vh;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-evenly;
 
-  h3{
-    display: flex;
-    justify-content: flex-start;
-    align-self: flex-start;
-    margin-right: 13px;
+  span{
+    width: 78%;
+  }
+`
+const ProjectTitle = styled.h3`
+  font-weight: 500;
+  width: auto !important;
+  font-size: 20px;
+  color: #1A190A;
+
+  @media screen and (max-width: 800px){
+    font-size: 18px;
+    margin-left: -3;
+  }
+
+  @media screen and (max-width: 550px){
+    font-size: 17px;
   }
 `
 
 const ProjectCard = styled.div`
+  width: 90%;
+  height: 350px;
+  display: flex;
+  border-radius: 12px;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to bottom right, #1A190A, #FF8C00);
 
-`
-const TitleCard = styled.h4`
-
-`
-
-const DescriptionCard = styled.p`
-
+    h3{
+      text-decoration: underline;
+      font-size: 40px;
+      color: black;
+    }
 `
 
 /* Exports */
@@ -439,8 +468,7 @@ export {
   Line,
   ImgTecnologies,
   ImgContainer,
-  DescriptionCard,
-  TitleCard,
   Project,
   ProjectCard,
+  ProjectTitle
 };

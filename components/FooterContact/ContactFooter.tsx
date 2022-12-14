@@ -31,4 +31,4 @@ export default function FooterContact() {
       </ContactFooter>
     </div>
   )
-}
+};

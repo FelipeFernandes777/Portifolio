@@ -1,8 +1,8 @@
-import Head from 'next/head'
-import { GlobalStyle } from '../styles/GlobalStyles'
+import Head from 'next/head';
+import { GlobalStyle } from '../styles/GlobalStyles';
 
-import ContactPage from '../template/Contact'
-import StartPage from '../template/Page'
+import ContactPage from '../template/Contact';
+import StartPage from '../template/Page';
 
 export default function Home() {
   return (
@@ -21,4 +21,4 @@ export default function Home() {
       <ContactPage />
     </div>
   )
-}
+};

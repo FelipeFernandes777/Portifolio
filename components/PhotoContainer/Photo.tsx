@@ -1,4 +1,4 @@
-import { Photo, PhotoContainer, Title } from '../../styles/Styles'
+import { Photo, PhotoContainer, Title } from '../../styles/Styles';
 
 export default function PhotoContext(){
   return(
@@ -9,4 +9,4 @@ export default function PhotoContext(){
         </Title>
       </PhotoContainer>
   )
-}
+};

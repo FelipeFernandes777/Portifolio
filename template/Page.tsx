@@ -1,6 +1,6 @@
 import { About, PhotoContainer, TecnologiesContainer } from '../components/index';
 
-import { Line, Project, ProjectCard, StartPageSection, Title } from "../styles/Styles";
+import { Line, Project, ProjectCard, ProjectTitle, StartPageSection, Title } from "../styles/Styles";
 
 
 export default function StartPage(){
@@ -10,13 +10,10 @@ export default function StartPage(){
       <About/>
       <TecnologiesContainer />
       <Project>
-        <Title> Projetos </Title>
+        <ProjectTitle> Projetos </ProjectTitle>
         <Line />
         <ProjectCard>
-        </ProjectCard>
-        <ProjectCard>
-        </ProjectCard>
-        <ProjectCard>
+          <Title> Em produção !!! </Title>
         </ProjectCard>
       </Project>
     </StartPageSection>

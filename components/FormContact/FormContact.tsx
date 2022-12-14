@@ -24,4 +24,4 @@ export default function FormContato(){
     <Description>(31) 98621-2400</Description>
   </ContactInfo>
   )
-}
+};

@@ -1,4 +1,4 @@
-import { ImgContainer, ImgTecnologies, Line, TecnologiesContainer, Title } from "../../styles/Styles"
+import { ImgContainer, ImgTecnologies, Line, TecnologiesContainer, Title } from "../../styles/Styles";
 
 export default function Tecnologies(){
   return(
@@ -17,4 +17,4 @@ export default function Tecnologies(){
     </ImgContainer>
   </TecnologiesContainer>
   )
-}
+};
