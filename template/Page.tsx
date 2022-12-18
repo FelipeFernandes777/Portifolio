@@ -1,13 +1,23 @@
-import { About, PhotoContainer, TecnologiesContainer } from '../components/index';
+import {
+  About,
+  PhotoContainer,
+  TecnologiesContainer
+} from "../components/index"
 
-import { Line, Project, ProjectCard, ProjectTitle, StartPageSection, Title } from "../styles/Styles";
+import {
+  Line,
+  Project,
+  ProjectCard,
+  ProjectTitle,
+  StartPageSection,
+  Title
+} from "../styles/Styles"
 
-
-export default function StartPage(){
-  return(
+export default function StartPage() {
+  return (
     <StartPageSection>
       <PhotoContainer />
-      <About/>
+      <About />
       <TecnologiesContainer />
       <Project>
         <ProjectTitle> Projetos </ProjectTitle>

@@ -1,12 +1,10 @@
-import { Photo, PhotoContainer, Title } from '../../styles/Styles';
+import { Photo, PhotoContainer, Title } from "../../styles/Styles"
 
-export default function PhotoContext(){
-  return(
+export default function PhotoContext() {
+  return (
     <PhotoContainer>
-        <Photo src="#" alt ="Foto-Pessoal"/>
-        <Title>
-          Dev Front-End
-        </Title>
-      </PhotoContainer>
+      <Photo src="#" alt="Foto-Pessoal" />
+      <Title>Dev Front-End</Title>
+    </PhotoContainer>
   )
-};
+}

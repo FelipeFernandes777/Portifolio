@@ -1,4 +1,4 @@
-import { createGlobalStyle } from 'styled-components';
+import { createGlobalStyle } from "styled-components"
 
 const GlobalStyle = createGlobalStyle`
   *{
@@ -20,6 +20,4 @@ body::-webkit-scrollbar-thumb {
   border: 1px solid #F0EEB9;  /* creates padding around scroll thumb */
 }
 `
-export {
-  GlobalStyle
-};
+export { GlobalStyle }
